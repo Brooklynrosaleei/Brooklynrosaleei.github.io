@@ -31,17 +31,27 @@ $(function () {
 
 
     // TODO 2 - Create Platforms
-
+createPlatform(400, 600, 100, 140, "hotpink");
+createPlatform(200,700, 200, 40, "blue");
+createPlatform(600, 600, 200, 140, "orange");
+createPlatform(800, 500, 200, 240, "purple");
+createPlatform(1100, 500, 200, 240, "green");
+createFakePlatform(500, 600, 100, 140, "hotpink");
+createFakePlatform(1000, 500, 100, 240, "purple");
 
 
 
     // TODO 3 - Create Collectables
-
+createCollectable("diamond", 450, 560 );
+createCollectable("max", 850, 469 );
+createCollectable("grace", 1162, 340 );
 
 
     
     // TODO 4 - Create Cannons
-
+createCannon("left", 500, 2000);
+createCannon("right", 330, 2000);
+createCannon("top", 600, 2000);
 
     
     
